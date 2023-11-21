@@ -4,7 +4,7 @@ import pytest
 
 # test addition
 def test_addition_int():
-  assert addition(4, 7) == 4 # special "if"; if true, continue, else break now
+  assert addition(4, 7) == 11 # special "if"; if true, continue, else break now
 
 def test_addition_float():
   assert addition(2.3, 7.92) == pytest.approx(10.22, 0.01)
