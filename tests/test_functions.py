@@ -6,7 +6,7 @@ def test_addition_float():
   assert addition(2.3, 7.92) == pytest.approx(10.22, 0.0001)
 
 def test_addition_string():
-  assert addition("a", "b") == "Input should be integers or real numbers"
+  assert addition("a", "b") == "Input should be integers or reals"
 
 # test squared
 def test_squared_odd():
