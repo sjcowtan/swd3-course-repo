@@ -1,5 +1,6 @@
 
 from hypotenuse.functions import addition, squared, sqroot, hypotenuse
+import pytest
 
 # test addition
 def test_addition_int():
