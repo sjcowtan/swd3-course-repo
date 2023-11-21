@@ -1,5 +1,5 @@
 
-from hypot.functions import addition, squared, sqroot, hypotenuse
+from hypotenuse.functions import addition, squared, sqroot, hypotenuse
 
 # test addition
 def test_addition_int():
