@@ -3,7 +3,7 @@ from hypotenuse.functions import addition, squared, sqroot, hypot
 import pytest
 
 # test addition
-def test_addition_int():
+def test_addition_int(): 
   assert addition(4, 7) == 11 # special "if"; if true, continue, else break now
 
 def test_addition_float():
