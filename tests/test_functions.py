@@ -20,7 +20,7 @@ def test_squared_odd():
     assert squared(3) == 9
 
 
-def test_squared_odd():
+def test_squared_even():
     assert squared(4) == 16
 
 
