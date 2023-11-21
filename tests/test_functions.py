@@ -1,3 +1,6 @@
+
+from hypot.functions import addition, squared, sqroot, hypotenuse
+
 # test addition
 def test_addition_int():
   assert addition(4, 7) == 4 # special "if"; if true, continue, else break now
