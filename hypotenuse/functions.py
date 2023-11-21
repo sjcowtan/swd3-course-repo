@@ -18,5 +18,5 @@ def sqroot(a):
 def hypot(a, b):
     sa = squared(a)
     sb = squared(b)
-    sum_ab = addition(a, b)
+    sum_ab = addition(sa, sb)
     return sqroot(sum_ab)
