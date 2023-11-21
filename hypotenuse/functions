@@ -14,8 +14,8 @@ def squared(a):
 def sqroot(a):
     return a**0.5
 
-# hypotenuse
-def hypotenuse(a, b):
+# hypot
+def hypot(a, b):
     sa = squared(a)
     sb = squared(b)
     sum_ab = addition(a, b)

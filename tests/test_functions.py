@@ -1,5 +1,5 @@
 
-from hypotenuse.functions import addition, squared, sqroot, hypotenuse
+from hypotenuse.functions import addition, squared, sqroot, hypot
 import pytest
 
 # test addition
@@ -27,6 +27,6 @@ def test_squared_neg():
 def test_sqroot():
   assert sqroot(9) == 3
 
-# test hypotenuse
-def test_hypotenuse():
-  assert hypotenuse(3, 4) == 5
+# test hypot
+def test_hypot():
+  assert hypot(3, 4) == 5
